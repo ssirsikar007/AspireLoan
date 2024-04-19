@@ -7,8 +7,10 @@ After the loan is approved, the user must be able to submit the weekly loan repa
 need to check if the dates are correct but will just set the weekly amount to be repaid.
 
 ### Application Details
-The application is built using springboot framework together with maven to manage dependencies. I
-It uses H2 database, it is a RDBMS and can be used in house with java applications. In this application it gets bundled during the server start and is dropped once the server stops. Hence it holds only the current session data. H2 console can be accessed by http://localhost:9090/h2-console . Credentials for the console is available in application.properties file. The data is well abstracted from the implementation of services and util class are created using singleton pattern. The project is modularized are seperating the class in layers such as controllers, service , repository. All the test cases to individual classes are kept in test section to make it more readable and understandable. 
+It uses H2 database, it is a RDBMS and can be used in house with java applications. In this application it gets bundled during the server start and is dropped once the server stops. Hence it holds only the current session data. H2 console can be accessed by http://localhost:9090/h2-console. Credentials for the console is available in application.properties file. The data is well abstracted from the implementation of services and util class are created using singleton pattern. The project is modularized are seperating the class in layers such as controllers, service , repository. All the test cases to individual classes are kept in test section to make it more readable and understandable.
+
+1. The application runs on port 9090, hence use  http://localhost:9090/
+2. Date format is not validated so use right date format YYYY-mm-DD 
 
 
 ### Folder Structure
