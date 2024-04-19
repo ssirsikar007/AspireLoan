@@ -12,6 +12,9 @@ import com.aspire.loanbe.dto.ApproveRequest;
 import com.aspire.loanbe.message.SuccessMessageConstants;
 import com.aspire.loanbe.service.ILoanService;
 
+/**
+ * Controller for all admin related activities
+ */
 @RestController
 @RequestMapping("/api/v1")
 public class AdminController {

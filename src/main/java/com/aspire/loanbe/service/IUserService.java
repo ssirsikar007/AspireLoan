@@ -5,6 +5,9 @@ import java.util.Optional;
 import com.aspire.loanbe.dto.UserRequest;
 import com.aspire.loanbe.model.Member;
 
+/**
+ * Interface for user methods
+ */
 public interface IUserService {
 	public String createUser(UserRequest userRequest);
 

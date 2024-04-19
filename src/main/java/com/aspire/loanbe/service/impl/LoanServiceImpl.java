@@ -31,6 +31,9 @@ import com.aspire.loanbe.util.MemberUtil;
 
 import jakarta.transaction.Transactional;
 
+/**
+ * Service implementation for loan
+ */
 @Service
 public class LoanServiceImpl implements ILoanService {
 

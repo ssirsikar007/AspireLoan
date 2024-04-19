@@ -2,6 +2,7 @@ package com.aspire.loanbe.service.impl;
 
 import java.util.Optional;
 
+
 import org.springframework.stereotype.Service;
 
 import com.aspire.loanbe.dto.UserRequest;
@@ -10,6 +11,9 @@ import com.aspire.loanbe.model.Member;
 import com.aspire.loanbe.repository.UserRepository;
 import com.aspire.loanbe.service.IUserService;
 
+/**
+ * Interface implementation for user methods 
+ */
 @Service
 public class UserServiceImpl implements IUserService {
 	private final UserRepository memberRespository;

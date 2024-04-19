@@ -12,6 +12,9 @@ import com.aspire.loanbe.service.IUserService;
 
 import jakarta.validation.Valid;
 
+/**
+ * Controller for all user related calls
+ */
 @RestController
 @RequestMapping("/api/v1")
 public class UserController {

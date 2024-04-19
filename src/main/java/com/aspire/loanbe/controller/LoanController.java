@@ -21,6 +21,9 @@ import com.aspire.loanbe.service.ILoanService;
 
 import jakarta.validation.Valid;
 
+/**
+ * Controller for all loan related activites
+ */
 @RestController
 @RequestMapping("/api/v1")
 public class LoanController {

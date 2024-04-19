@@ -19,6 +19,10 @@ public class Member {
 		super();
 	}
 
+	/**
+	 * @param username
+	 * @param isAdmin
+	 */
 	public Member(String username, boolean isAdmin) {
 		this.username = username;
 		this.isAdmin = isAdmin;

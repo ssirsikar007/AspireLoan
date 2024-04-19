@@ -11,6 +11,9 @@ import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import lombok.AllArgsConstructor;
 
+/**
+ * 
+ */
 @AllArgsConstructor
 @Entity
 public class Loan {

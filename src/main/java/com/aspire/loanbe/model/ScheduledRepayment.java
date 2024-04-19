@@ -8,6 +8,9 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
 
+/**
+ * 
+ */
 @Entity
 public class ScheduledRepayment {
 	@Id
@@ -17,6 +20,9 @@ public class ScheduledRepayment {
 	private Loan loan;
 	private Date repaymentDate;
 	private double amount;
+	/**
+	 * 
+	 */
 	private StatusEnum state;
 
 	public ScheduledRepayment(Loan loan, Date repaymentDate, double amount, StatusEnum state) {

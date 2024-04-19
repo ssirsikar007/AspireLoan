@@ -7,6 +7,9 @@ import com.aspire.loanbe.dto.UserLoanResponse;
 import com.aspire.loanbe.exception.CustomerNotFoundException;
 import com.aspire.loanbe.exception.NotAdminException;
 
+/**
+ * Interface for loan 
+ */
 public interface ILoanService {
 	public void createLoan(LoanRequest loanRequest, Long customerId);
 
