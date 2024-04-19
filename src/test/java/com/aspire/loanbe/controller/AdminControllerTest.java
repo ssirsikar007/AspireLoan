@@ -16,7 +16,7 @@ import com.aspire.loanbe.dto.ApproveRequest;
 import com.aspire.loanbe.service.ILoanService;
 
 @WebMvcTest(AdminController.class)
-class AdminControllerTest {
+public class AdminControllerTest {
 
 	@Autowired
 	private MockMvc mockMvc;
@@ -31,8 +31,7 @@ class AdminControllerTest {
 		ApproveRequest approveRequest = new ApproveRequest();
 		approveRequest.setLoanId(123);
 
-		mockMvc.perform(
-				post("/api/v1/admin/{id}/approve", 456L).contentType(MediaType.APPLICATION_JSON).content("{\"loanId\": 123}"))
-				.andExpect(status().isOk());
+		mockMvc.perform(post("/api/v1/admin/{id}/approve", 456L).contentType(MediaType.APPLICATION_JSON)
+				.content("{\"loanId\": 123}")).andExpect(status().isOk());
 	}
 }

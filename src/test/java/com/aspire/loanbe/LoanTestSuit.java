@@ -8,9 +8,7 @@ import org.junit.runner.RunWith;
 
 import com.aspire.loanbe.controller.LoanControllerTest;
 import com.aspire.loanbe.repository.LoanRepositoryTest;
-import com.aspire.loanbe.repository.UserRepositoryTest;
 import com.aspire.loanbe.service.impl.LoanServiceImplTest;
-import com.aspire.loanbe.service.impl.UserServiceImplTest;
 
 @RunWith(JUnitPlatform.class)
 @SelectClasses({ LoanControllerTest.class, LoanServiceImplTest.class, LoanRepositoryTest.class })

@@ -21,7 +21,7 @@ import com.aspire.loanbe.model.Member;
 import com.aspire.loanbe.repository.UserRepository;
 import com.aspire.loanbe.service.IUserService;
 
-class UserServiceImplTest {
+public class UserServiceImplTest {
 
 	@Mock
 	private UserRepository userRepository;

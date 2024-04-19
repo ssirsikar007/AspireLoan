@@ -7,11 +7,10 @@ import org.junit.platform.suite.api.SelectClasses;
 import org.junit.runner.RunWith;
 
 import com.aspire.loanbe.controller.UserControllerTest;
-import com.aspire.loanbe.repository.UserRepositoryTest;
 import com.aspire.loanbe.service.impl.UserServiceImplTest;
 
 @RunWith(JUnitPlatform.class)
-@SelectClasses({ UserControllerTest.class, UserServiceImplTest.class, UserRepositoryTest.class })
+@SelectClasses({ UserControllerTest.class, UserServiceImplTest.class })
 @TestInstance(Lifecycle.PER_CLASS)
 public class UserTestSuit {
 	// This class doesn't contain any code.

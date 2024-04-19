@@ -43,7 +43,7 @@ public class LoanUtil {
 		List<ScheduledRepayment> scheduledPayments = new ArrayList<>();
 		double amount = loan.getAmount();
 		int term = loan.getTerm();
-		Date date = getNextPaymentDate(loan.getLoanDate());
+		Date date = loan.getLoanDate();
 		double spliAmounts = amount / term;
 		while (term > 0) {
 			date = getNextPaymentDate(date);

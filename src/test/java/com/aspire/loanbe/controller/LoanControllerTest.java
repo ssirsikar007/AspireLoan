@@ -37,7 +37,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @WebMvcTest(LoanController.class)
-class LoanControllerTest {
+public class LoanControllerTest {
 
 	@Autowired
 	private MockMvc mockMvc;

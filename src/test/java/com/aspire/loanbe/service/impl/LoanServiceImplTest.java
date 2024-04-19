@@ -40,7 +40,7 @@ import com.aspire.loanbe.repository.ScheduledRepaymentRepository;
 import com.aspire.loanbe.service.IUserService;
 import com.aspire.loanbe.util.LoanUtil;
 
-class LoanServiceImplTest {
+public class LoanServiceImplTest {
 
 	@Mock
 	private LoanRepository loanRepository;
