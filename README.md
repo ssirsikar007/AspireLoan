@@ -157,7 +157,23 @@ Downloads all the dependencies provided in pom.xml and builds the project
 ```bash
   mvn spring-boot:run
 ```
+#### 5. Run unit test
+```bash
+  mvn mvn test
+```
+#### 6. Run test features
+#### Navigate to project directory
+```bash
+ mvn -Dtest=TestClassToRun AdminTestSuit
+ mvn -Dtest=TestClassToRun LoanTestSuit
+ mvn -Dtest=TestClassToRun UserTestSuit
+```
+### Code coverage
+<img src="src\main\resources\static\Coverage.png"/>
 
+## Authors
+
+- [@ssirsikar](https://www.linkedin.com/in/suraj-sirsikar-40670a102/)
 
 
 
