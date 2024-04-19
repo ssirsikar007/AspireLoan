@@ -11,6 +11,7 @@ It uses H2 database, it is a RDBMS and can be used in house with java applicatio
 
 1. The application runs on port 9090, hence use  http://localhost:9090/
 2. Date format is not validated so use right date format YYYY-mm-DD 
+3. User and loan ids are created linearly from 1, if you want to find user id create check in h2 console or assume it from from 1, 2. As there is no get user api for now.
 
 
 ### Folder Structure
