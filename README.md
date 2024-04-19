@@ -159,7 +159,7 @@ Downloads all the dependencies provided in pom.xml and builds the project
 ```
 #### 5. Run unit test
 ```bash
-  mvn mvn test
+  mvn test
 ```
 #### 6. Run test features
 #### Navigate to project directory
